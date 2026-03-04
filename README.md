@@ -22,12 +22,10 @@ Edit `src/data/resumeData.js` and replace placeholder data with your resume deta
 
 ## Deploy to GitHub Pages
 
-This project is configured for repo name `quiz_app` using `base` in `vite.config.js`.
+This project auto-detects the GitHub repo name during deploy and sets the correct Vite `base`.
 
 ```bash
 cd portfolio-web
 npm install
-GITHUB_PAGES=true npm run deploy
+npm run deploy
 ```
-
-If your GitHub repo name is different, update `base` in `vite.config.js`.
