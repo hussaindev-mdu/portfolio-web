@@ -22,7 +22,7 @@ Edit `src/data/resumeData.js` and replace placeholder data with your resume deta
 
 ## Deploy to GitHub Pages
 
-This project auto-detects the GitHub repo name during deploy and sets the correct Vite `base`.
+This project is configured for the custom domain `hussain-dev.in` with root base path and a `CNAME` file.
 
 ```bash
 cd portfolio-web
